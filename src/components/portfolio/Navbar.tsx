@@ -24,7 +24,7 @@ export function Navbar() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#hero" className="font-display text-2xl tracking-wider text-foreground">
-          SRI<span className="text-spider">/</span>HARI
+          SR<span className="text-spider">/</span>HARI
         </a>
         <nav className="hidden gap-8 md:flex">
           {links.map((l) => (

@@ -39,7 +39,7 @@ export function Navbar() {
         </nav>
         <a
           href="#contact"
-          className="font-mono text-xs uppercase tracking-widest border border-spider/60 px-4 py-2 text-spider hover:bg-spider hover:text-primary-foreground transition-colors"
+          className="font-mono text-xs uppercase tracking-widest rounded-lg border border-techblue/60 px-4 py-2 text-techblue hover:bg-techblue hover:text-primary-foreground transition-colors"
         >
           Hire_me()
         </a>

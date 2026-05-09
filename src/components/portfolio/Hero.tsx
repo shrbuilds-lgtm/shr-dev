@@ -35,7 +35,7 @@ export function Hero() {
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <a
               href="#work"
-              className="group relative inline-flex items-center gap-3 bg-spider px-6 py-3 font-mono text-xs uppercase tracking-widest text-primary-foreground transition-all hover:glow-spider"
+              className="group relative inline-flex items-center gap-3 rounded-xl bg-spider px-6 py-3 font-mono text-xs uppercase tracking-widest text-primary-foreground transition-all hover:glow-spider"
             >
               View_Work
               <span className="transition-transform group-hover:translate-x-1">→</span>
@@ -68,9 +68,9 @@ export function Hero() {
         {/* Right: Portrait */}
         <div className="lg:col-span-5">
           <div className="relative mx-auto max-w-md">
-            <div className="absolute -inset-3 border border-spider/40" />
+            <div className="absolute -inset-3 rounded-2xl border border-techblue/40" />
             <div className="absolute -inset-3 corner-brackets" />
-            <div className="relative scanline overflow-hidden">
+            <div className="relative scanline overflow-hidden rounded-xl">
               <img
                 src={portrait}
                 alt="Srihari portrait — graffiti red background"
@@ -79,7 +79,7 @@ export function Hero() {
               <div className="pointer-events-none absolute inset-0 bg-halftone opacity-20 mix-blend-multiply" />
             </div>
             <div className="mt-3 flex items-center justify-between font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-              <span>ID_0001 // SRIHARI</span>
+              <span className="text-techblue">ID_0001 // SRIHARI</span>
               <span className="text-spider">● REC</span>
             </div>
           </div>

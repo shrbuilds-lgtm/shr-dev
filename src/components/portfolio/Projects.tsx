@@ -65,10 +65,10 @@ export function Projects() {
           {projects.map((p) => (
             <article
               key={p.n}
-              className="corner-brackets group relative cursor-pointer border border-border bg-card/60 p-6 transition-all hover:border-spider hover:bg-card hover:-translate-y-1 hover:glow-spider"
+              className="corner-brackets group relative cursor-pointer rounded-xl border border-border bg-card/60 p-6 transition-all hover:border-techblue hover:bg-card hover:-translate-y-1 hover:glow-techblue"
             >
               {/* Cover */}
-              <div className="relative mb-6 aspect-[4/3] overflow-hidden border border-border bg-secondary/40">
+              <div className="relative mb-6 aspect-[4/3] overflow-hidden rounded-lg border border-border bg-secondary/40">
                 <div className="absolute inset-0 bg-grid opacity-30" />
                 <div className="absolute inset-0 bg-halftone opacity-20" />
                 <div className="absolute inset-0 flex items-center justify-center">

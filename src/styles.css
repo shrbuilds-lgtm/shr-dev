@@ -30,6 +30,7 @@
   --color-ring: var(--ring);
   --color-spider: var(--spider);
   --color-neon: var(--neon);
+  --color-techblue: var(--techblue);
   --font-display: "Anton", "Bebas Neue", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
   --font-sans: "Space Grotesk", system-ui, sans-serif;
@@ -58,6 +59,7 @@
   --ring: oklch(0.58 0.24 25);
   --spider: oklch(0.58 0.24 25);
   --neon: oklch(0.82 0.17 200);
+  --techblue: oklch(0.65 0.22 250);
   --sidebar: oklch(0.16 0.015 20);
   --sidebar-foreground: oklch(0.97 0.005 90);
   --sidebar-primary: oklch(0.58 0.24 25);
@@ -122,6 +124,11 @@
   .glow-neon {
     box-shadow: 0 0 0 1px color-mix(in oklab, var(--neon) 50%, transparent),
       0 0 30px -10px var(--neon);
+  }
+
+  .glow-techblue {
+    box-shadow: 0 0 0 1px color-mix(in oklab, var(--techblue) 60%, transparent),
+      0 0 30px -10px var(--techblue);
   }
 
   .corner-brackets {

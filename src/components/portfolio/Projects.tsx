@@ -107,7 +107,18 @@ export function Projects() {
 
               <div className="mt-6 flex items-center justify-between border-t border-border pt-4 font-mono text-xs">
                 <span className="text-muted-foreground">CASE_{p.n}</span>
-                <span className="text-spider transition-transform group-hover:translate-x-1">→</span>
+                {p.href ? (
+                  <a
+                    href={p.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-techblue transition-transform hover:translate-x-1"
+                  >
+                    LIVE →
+                  </a>
+                ) : (
+                  <span className="text-spider transition-transform group-hover:translate-x-1">→</span>
+                )}
               </div>
             </article>
           ))}

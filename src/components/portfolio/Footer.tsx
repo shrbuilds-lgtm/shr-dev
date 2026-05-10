@@ -25,7 +25,9 @@ export function Footer() {
         </p>
 
         <a
-          href="mailto:shr.builds@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=shr.builds@gmail.com&su=Hey%20SHR%20%E2%80%94%20let's%20connect&body=Hi%20Srihari%2C%0A%0A"
+          target="_blank"
+          rel="noreferrer"
           className="mt-10 inline-flex items-center gap-3 rounded-xl bg-spider px-8 py-4 font-mono text-sm uppercase tracking-widest text-primary-foreground transition-all hover:glow-spider"
         >
           send_message()

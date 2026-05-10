@@ -1,5 +1,13 @@
 const projects = [
   {
+    n: "00",
+    title: "THIS PORTFOLIO",
+    cat: "CODE / WEB",
+    desc: "The site you're on right now. Cyberpunk + Spider-verse themed portfolio built from scratch.",
+    tags: ["React", "TS", "Tailwind"],
+    href: "https://shr-dev.lovable.app",
+  },
+  {
     n: "01",
     title: "NIGHTRIDE EDIT",
     cat: "VIDEO / EDIT",

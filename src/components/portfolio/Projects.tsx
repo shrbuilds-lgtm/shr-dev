@@ -75,7 +75,7 @@ function ProjectCard({ p, i }: { p: (typeof projects)[number]; i: number }) {
       ref={ref}
       onMouseMove={onMove}
       variants={cardVariants}
-      transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: (i % 3) * 0.06 }}
+      transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] as const, delay: (i % 3) * 0.06 }}
       className="corner-brackets group relative cursor-pointer overflow-hidden rounded-xl border border-border bg-card/60 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-techblue hover:glow-techblue"
       style={{
         backgroundImage:
@@ -151,7 +151,7 @@ export function Projects() {
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.4 }}
-          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] as const }}
           className="mb-20 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end"
         >
           <div>

@@ -29,7 +29,7 @@ export function About() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        transition={{ staggerChildren: 0.12, ease: [0.22, 1, 0.36, 1], duration: 0.8 }}
+        transition={{ staggerChildren: 0.12, ease: [0.22, 1, 0.36, 1] as const, duration: 0.8 }}
         className="mx-auto grid max-w-7xl grid-cols-1 gap-16 px-6 lg:grid-cols-12"
       >
         <motion.div variants={fadeUp} transition={{ duration: 0.7 }} className="lg:col-span-2">

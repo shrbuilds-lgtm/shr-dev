@@ -48,7 +48,7 @@ export function BootSequence() {
           key="boot"
           initial={{ opacity: 1 }}
           exit={{ opacity: 0, filter: "blur(20px)" }}
-          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] as const }}
           className="fixed inset-0 z-[100] flex items-center justify-center bg-background"
         >
           <div className="absolute inset-0 bg-grid opacity-30" />

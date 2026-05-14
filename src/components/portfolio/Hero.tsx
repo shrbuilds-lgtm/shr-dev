@@ -154,6 +154,8 @@ export function Hero() {
               <img
                 src={portrait}
                 alt="Srihari portrait — graffiti red background"
+                fetchPriority="high"
+                decoding="async"
                 className="h-full w-full object-cover"
               />
               <div className="pointer-events-none absolute inset-0 bg-halftone opacity-20 mix-blend-multiply" />

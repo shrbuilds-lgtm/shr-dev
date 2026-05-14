@@ -52,17 +52,17 @@ export function Hero() {
       <motion.div
         animate={{ x: [0, 40, 0], y: [0, -30, 0] }}
         transition={{ duration: 22, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute -left-32 top-20 h-[500px] w-[500px] rounded-full bg-spider/20 blur-[120px]"
+        className="absolute -left-32 top-20 hidden h-[500px] w-[500px] rounded-full bg-spider/20 blur-[120px] md:block"
       />
       <motion.div
         animate={{ x: [0, -30, 0], y: [0, 40, 0] }}
         transition={{ duration: 26, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute -right-32 bottom-0 h-[400px] w-[400px] rounded-full bg-techblue/15 blur-[120px]"
+        className="absolute -right-32 bottom-0 hidden h-[400px] w-[400px] rounded-full bg-techblue/15 blur-[120px] md:block"
       />
       <motion.div
         animate={{ opacity: [0.05, 0.12, 0.05] }}
         transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute right-1/4 top-1/3 h-[260px] w-[260px] rounded-full bg-neon/10 blur-[100px]"
+        className="absolute right-1/4 top-1/3 hidden h-[260px] w-[260px] rounded-full bg-neon/10 blur-[100px] md:block"
       />
 
       <motion.div
